@@ -1,11 +1,28 @@
 {
     "name": "@bluedocs/markdown-renderer",
+    "version": "0.1.0",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
     "typings": "dist/index.d.ts",
     "scripts": {
         "build": "vite build"
     },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "markdown",
+        "md",
+        "renderer"
+    ],
+    "description": "Vue3 Markdown 渲染器",
+    "homepage": "https://github.com/BlueDocs/markdown-renderer",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BlueDocs/markdown-renderer.git"
+    },
+    "license": "MIT",
+    "author": "Fansy <418536538@qq.com>",
     "devDependencies": {
         "@fansy/eslint-config": "^1.0.0",
         "@fansy/prettier-config": "^1.0.0",
