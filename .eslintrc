@@ -1,0 +1,12 @@
+{
+    "extends": ["@fansy/eslint-config"],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "overrides": [
+        {
+            "files": ["./**/*.tsx"],
+            "extends": ["@fansy/eslint-config/typescript.js", "eslint-config-prettier"]
+        }
+    ]
+}
