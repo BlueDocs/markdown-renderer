@@ -1,0 +1,27 @@
+{
+    "name": "@bluedocs/markdown-renderer",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "typings": "dist/index.d.ts",
+    "scripts": {
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@fansy/eslint-config": "^1.0.0",
+        "@fansy/prettier-config": "^1.0.0",
+        "@types/node": "^18.7.18",
+        "@vitejs/plugin-vue": "^3.1.0",
+        "@vitejs/plugin-vue-jsx": "^2.0.1",
+        "rimraf": "^3.0.2",
+        "vite": "^3.1.1",
+        "vite-plugin-dts": "^1.5.0",
+        "vue": "^3.2.39"
+    },
+    "dependencies": {
+        "highlight.js": "^11.6.0",
+        "vc-state": "^1.1.0"
+    },
+    "peerDependencies": {
+        "vue": ">= 3.0.0"
+    }
+}
