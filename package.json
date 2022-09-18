@@ -5,6 +5,7 @@
     "module": "dist/index.es.js",
     "typings": "dist/index.d.ts",
     "scripts": {
+        "dev": "vite",
         "build": "vite build"
     },
     "files": [
@@ -26,6 +27,7 @@
     "devDependencies": {
         "@fansy/eslint-config": "^1.0.0",
         "@fansy/prettier-config": "^1.0.0",
+        "@types/markdown-it": "^12.2.3",
         "@types/node": "^18.7.18",
         "@vitejs/plugin-vue": "^3.1.0",
         "@vitejs/plugin-vue-jsx": "^2.0.1",
@@ -36,6 +38,7 @@
     },
     "dependencies": {
         "highlight.js": "^11.6.0",
+        "markdown-it": "^13.0.1",
         "vc-state": "^1.1.0"
     },
     "peerDependencies": {
