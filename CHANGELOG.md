@@ -1,4 +1,8 @@
-# v0.1.0
+## Coming Soon
+
+-   🔧 构建目标为`esnext`，跟随项目中 webpack / vite 来进行语法转译
+
+## v0.1.0
 
 -   🚀 添加 `MarkdownRenderer` 组件
 -   🚀 添加 `MarkdownTokenRenderer` 组件
