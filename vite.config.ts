@@ -7,6 +7,8 @@ import { main, module } from './package.json';
 export default defineConfig({
     plugins: [vue(), jsx(), dts()],
     build: {
+        // 不进行语法转译，跟随项目中 webpack / vite 来进行语法转译
+        target: 'esnext',
         lib: {
             entry: 'src/index.ts',
             formats: ['cjs', 'es'],
