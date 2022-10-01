@@ -33,7 +33,6 @@
         "@types/markdown-it": "^12.2.3",
         "@types/node": "^18.7.18",
         "@vitejs/plugin-vue": "^3.1.0",
-        "@vitejs/plugin-vue-jsx": "^2.0.1",
         "@vue/babel-plugin-jsx": "^1.1.1",
         "rimraf": "^3.0.2",
         "vite": "^3.1.1",
